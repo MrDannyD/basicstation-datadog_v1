@@ -9,5 +9,11 @@ logs_config:
   container_collect_all: true
 process_config:
   enabled: true
+process_config:
+  enabled: true
+  container_collection:
+    enabled: true
+  process_collection:
+    enabled: true
 apm_config:
   enabled: false # disable APM
